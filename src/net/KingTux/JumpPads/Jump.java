@@ -1,7 +1,6 @@
 package net.KingTux.JumpPads;
 
 import org.bukkit.Material;
-import org.bukkit.Sound;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -29,7 +28,7 @@ public class Jump implements Listener {
 				&& (player.getLocation().getBlock().getType() == Material.getMaterial(TB))) {
 			Vector v = player.getLocation().getDirection().multiply(10).setY(angle);
 			player.setVelocity(v);
-			player.playSound(player.getLocation(), Sound.valueOf(Sound), 5.0F, 2.0F);
+			player.playSound(player.getLocation(), String.valueOf(Sound), 5.0F, 2.0F);
 				
 		}
 	}
