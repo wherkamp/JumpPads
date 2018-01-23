@@ -1,0 +1,10 @@
+#Developer KingTux
+
+BOTTOM_BLOCK: STONE
+TOP_BLOCK: STONE_PLATE
+ANGLE: 1.0
+Sound: ENTITY_ENDERDRAGON_HURT
+#Use * to mean all worlds
+Enabled-Worlds:
+   - '*'
+Jump-Message: 'Wooosh Have Fun!'

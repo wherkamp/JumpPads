@@ -15,26 +15,26 @@
     <developers>
         <developer>
                 <name>KingTux</name>
-                <url>http://kingtux.net</url>
+                <url>http://kingtux.me</url>
         </developer>
     </developers>
 
     <properties>
         <!--  Author and MainClass are used in plugin.yml -->
         <author>KingTux</author>
-        <mainClass>net.KingTux.JumpPads.Jumpads.java</mainClass>
+        <mainClass>me.kingtux.jump.JumpPadsMain</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 
-       <dependencies>
+    <dependencies>
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.11.2-R0.1-SNAPSHOT</version>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
-
     <repositories>
         <repository>
             <id>spigot-repo</id>
@@ -42,11 +42,11 @@
         </repository>
 </repositories>
     <build>
-        <sourceDirectory>src/</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <defaultGoal>clean install</defaultGoal>
         <resources>
             <resource>
-                <directory>src/resources</directory>
+                <directory>src/main/resources</directory>
                 <!-- Keeping filtering at true here reduces plugin.yml redundancy! -->
                 <filtering>true</filtering>
                 <includes>
