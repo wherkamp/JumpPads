@@ -7,4 +7,3 @@ Sound: ENTITY_ENDERDRAGON_HURT
 #Use * to mean all worlds
 Enabled-Worlds:
    - '*'
-Jump-Message: 'Wooosh Have Fun!'
