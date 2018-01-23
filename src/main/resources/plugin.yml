@@ -1,4 +1,7 @@
 name: JumpPads
 main: me.kingtux.jumppads.JumpPadsMain
+description: 'JumpPads plugin'
+website: https://www.spigotmc.org/resources/jumppads.34427/
+prefix: JumpPads
 version: 1.2
 author: KingTux
