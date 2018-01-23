@@ -19,10 +19,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JumpPads" />
+        <module name="KingJumpPads" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JumpPads" target="1.7" />
+      <module name="KingJumpPads" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

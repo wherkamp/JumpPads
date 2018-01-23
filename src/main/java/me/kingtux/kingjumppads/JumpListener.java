@@ -1,4 +1,4 @@
-package me.kingtux.jumppads;
+package me.kingtux.kingjumppads;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

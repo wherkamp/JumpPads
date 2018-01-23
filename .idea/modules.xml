@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JumpPads.iml" filepath="$PROJECT_DIR$/JumpPads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KingJumpPads.iml" filepath="$PROJECT_DIR$/KingJumpPads.iml" />
     </modules>
   </component>
 </project>

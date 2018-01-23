@@ -1,5 +1,5 @@
-name: JumpPads
-main: me.kingtux.jumppads.JumpPadsMain
+name: KingJumpPads
+main: me.kingtux.kingjumppads.JumpPadsMain
 description: 'JumpPads plugin'
 website: https://www.spigotmc.org/resources/jumppads.34427/
 prefix: JumpPads
